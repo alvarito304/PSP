@@ -9,7 +9,7 @@
 int  main()
 {
    int  fp;
-   char  saludo[]= "0";
+   char  saludo[]= "01233123\n";
 	
     fp = open("FIFO2",1);//abrimos el fifo de escritura por eso el "1"
 
