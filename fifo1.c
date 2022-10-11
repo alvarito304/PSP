@@ -21,14 +21,14 @@ int main(void)
 	printf("OBTENIENDO  Informacion...");
 	
 	if (isdigit(buffer[0])){	
-	  printf("SOY UN NUMERO\n");
+	printf("SOY UN NUMERO\n");
 	while 	(bytesleidos!=0)//creamos un bucle para leer el archivo
 	{
 	   printf("%c",buffer[0]); //printeamos el buffer [0]
 	   bytesleidos=read(fp,buffer,1)	;//leo  otro  byte
 	}
 	close(fp); 
-	}else{
+	}else {
 	printf("SOY UNA LETRA\n");
 	while 	(bytesleidos!=0)//creamos un bucle para leer el archivo
 	{
